@@ -1,0 +1,306 @@
+.nav .container .navbar-brand {
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+nav {
+    transition: .5s;
+}
+
+.list {
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
+
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+    font-weight: 400;
+}
+
+/* الخلفية البيضاء مع ظل */
+.nav-colored {
+    background-color: var(--bg-color-1) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* تغيير لون روابط الناف بار إلى أسود */
+.nav-colored .nav-link,
+.nav-colored .navbar-brand {
+    color: var(--black) !important;
+}
+
+/* عند التمرير، نصغّر البار قليلاً */
+.nav-scrolled {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    transition: padding 0.3s ease;
+}
+
+/* ============= hero section ============== */
+main.hero-section {
+    background: linear-gradient(#0000008f, #0000008f), url(../image/bg.jpg);
+}
+
+main .hero-s-icon a i {
+    width: 35px;
+    height: 35px;
+    background-color: var(--bg-color-7);
+}
+
+/* ============= end hero section ============== */
+/* ============= about section ============== */
+.about-section .img {
+    position: relative;
+
+}
+
+.about-section .img::before {
+    content: '';
+    position: absolute;
+    bottom: -8%;
+    left: -6%;
+    width: 80%;
+    height: 80%;
+    background-image: url(../image/dots.png);
+    z-index: -1;
+
+}
+
+.about-section .progress .bg-color {
+    background-color: var(--bg-color-4) !important;
+
+}
+
+.about-section h4 {
+    color: var(--neutral-3);
+}
+
+/* ============= end about section ============== */
+/* ============= service section ============== */
+
+.services .icon {
+    width: 70px;
+    height: 70px;
+}
+
+.services .item:hover .icon {
+    background-color: var(--bg-color-4) !important;
+    color: var(--neutral-2);
+}
+
+/* ============= end service section ============== */
+/* ============= portfolio section ============== */
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+    font-weight: 700;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--neutral-7);
+}
+
+.portfolio .list {
+    background-color: var(--transparent) !important;
+    color: var(--neutral-7);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.portfolio .inner-item .overlay {
+    top: 24px;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.portfolio .inner-item .overlay h5,
+.portfolio .inner-item .overlay .icon {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.portfolio .inner-item .overlay h5 {
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 700;
+    transform: translateY(-40px);
+}
+
+.portfolio .inner-item .overlay .icon {
+    transform: translateY(40px);
+}
+
+.portfolio .inner-item:hover .overlay {
+    top: 0;
+    background-color: var(--bg-color-2);
+    border: 4px solid #D7D5D6;
+    opacity: 1;
+}
+
+.portfolio .inner-item:hover .overlay h5 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.portfolio .inner-item:hover .overlay .icon {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.portfolio .inner-item .overlay .icon i {
+    font-size: 14px;
+
+}
+
+.portfolio .inner-item .overlay .icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: var(--neutral-2);
+}
+
+.portfolio .inner-item .overlay .icon a:hover {
+    background-color: var(--transparent);
+    color: var(--black);
+}
+
+
+/* ============= end portfolio section ============== */
+/* ============= clients section ============== */
+.testimonial .carousel-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--bg-color-5);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* stats section */
+.stats-section .stat-item .inner-item i,
+.inner-item h3 {
+    color: var(--neutral-6);
+    line-height: 33px;
+}
+
+.stats-section .stat-item .inner-item h3 {
+    font-weight: 900;
+}
+
+.stats-section .stat-item .inner-item .stat-label {
+    color: var(--neutral-5);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+/* ============= end clients section ============== */
+/* ============= team section ============== */
+.team .item .inner-item .card i {
+    font-size: 20px;
+    color: var(--white);
+
+}
+
+.team .item .inner-item .card a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    background-color: var(--black);
+    transition: .5s ease;
+}
+
+.team .item .inner-item .card a:hover {
+    border: 1px solid var(--black);
+    background-color: var(--transparent);
+}
+
+.team .item .inner-item .card a:hover i {
+    color: var(--black);
+}
+
+.team .item .inner-item .card .overlay {
+    width: 96%;
+    height: 96%;
+    background-color: var(--bg-color-10);
+    opacity: 0;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.team .item .inner-item:hover .overlay {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+.team .item .inner-item .card .card-body {
+    background-color: var(--bg-color-9);
+}
+
+.team .item .inner-item .card .card-body h2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.team .item .inner-item .card .card-body h2,
+.card-body h3 {
+    color: var(--neutral-8);
+
+}
+
+.team .item .inner-item .card .card-body h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+/* ============= end team section ============== */
+/* ============= contact section ============== */
+.contact .item .inner-item a{
+    width: 60px;
+    height: 60px;
+    color: var(--neutral-7);
+}
+.contact .item .inner-item a:hover{
+    background-color: var(--bg-color-4) !important;
+    color: var(--neutral-2);
+}
+.contact .item .inner-item i{
+   font-size: 25px;
+}
+.contact .item .inner-item h2{
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 18px;
+   color: var(--neutral-6);
+}
+.contact .item .inner-item p{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 24px;
+   color: var(--neutral-5);
+}
+/* ============= end contact section ============== */
+/* ============= footer ============== */
+footer p{
+    color: var(--neutral-5);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* ============= end footer ============== */

@@ -1,0 +1,293 @@
+main .typing {
+  position: relative;
+  transform: translate(-100%);
+
+}
+
+main .typing::after {
+  content: '|';
+font-weight: 400;
+  position: absolute;
+  top: 0%;
+  animation: anime 15s infinite ease-in-out;
+}
+
+@keyframes anime {
+  0% {
+    content: '|';
+  }
+
+  1.5% {
+    content: 'L|';
+  }
+
+  3% {
+    content: 'La|';
+  }
+
+  4.5% {
+    content: 'Lar|';
+  }
+
+  6% {
+    content: 'Larr|';
+  }
+
+  7.5% {
+    content: 'Larry|';
+  }
+
+  9% {
+    content: 'Larry |';
+  }
+
+  10.5% {
+    content: 'Larry D|';
+  }
+
+  12% {
+    content: 'Larry Da|';
+  }
+
+  13.5% {
+    content: 'Larry Dan|';
+  }
+
+  15% {
+    content: 'Larry Dani|';
+  }
+
+  16.5% {
+    content: 'Larry Danie|';
+  }
+
+  18% {
+    content: 'Larry Daniel|';
+  }
+
+  19.5% {
+    content: 'Larry Daniels|';
+  }
+
+  21% {
+    content: 'Larry Daniels|';
+  }
+
+  /* Delay */
+  22.5% {
+    content: 'Larry Daniels|';
+  }
+
+  /* Delay */
+  24% {
+    content: 'Larry Daniel|';
+  }
+
+  25.5% {
+    content: 'Larry Danie|';
+  }
+
+  27% {
+    content: 'Larry Dani|';
+  }
+
+  28.5% {
+    content: 'Larry Dan|';
+  }
+
+  30% {
+    content: 'Larry Da|';
+  }
+
+  31.5% {
+    content: 'Larry D|';
+  }
+
+  33% {
+    content: 'Larry |';
+  }
+
+  34.5% {
+    content: 'Larry|';
+  }
+
+  36% {
+    content: 'Larr|';
+  }
+
+  37.5% {
+    content: 'Lar|';
+  }
+
+  39% {
+    content: 'La|';
+  }
+
+  40.5% {
+    content: 'L|';
+  }
+
+  42% {
+    content: '|';
+  }
+
+  43.5% {
+    content: 'D|';
+  }
+
+  45% {
+    content: 'De|';
+  }
+
+  46.5% {
+    content: 'Dev|';
+  }
+
+  48% {
+    content: 'Deve|';
+  }
+
+  49.5% {
+    content: 'Devel|';
+  }
+
+  51% {
+    content: 'Develo|';
+  }
+
+  52.5% {
+    content: 'Develop|';
+  }
+
+  54% {
+    content: 'Develope|';
+  }
+
+  55.5% {
+    content: 'Developer|';
+  }
+
+  57% {
+    content: 'Developer|';
+  }
+
+  /* Delay */
+  58.5% {
+    content: 'Developer|';
+  }
+
+  /* Delay */
+  60% {
+    content: 'Develope|';
+  }
+
+  61.5% {
+    content: 'Develop|';
+  }
+
+  63% {
+    content: 'Develo|';
+  }
+
+  64.5% {
+    content: 'Devel|';
+  }
+
+  66% {
+    content: 'Deve|';
+  }
+
+  67.5% {
+    content: 'Dev|';
+  }
+
+  69% {
+    content: 'De|';
+  }
+
+  70.5% {
+    content: 'D|';
+  }
+
+  72% {
+    content: '|';
+  }
+
+  73.5% {
+    content: 'D|';
+  }
+
+  75% {
+    content: 'De|';
+  }
+
+  76.5% {
+    content: 'Des|';
+  }
+
+  78% {
+    content: 'Desi|';
+  }
+
+  79.5% {
+    content: 'Desig|';
+  }
+
+  81% {
+    content: 'Design|';
+  }
+
+  82.5% {
+    content: 'Designe|';
+  }
+
+  84% {
+    content: 'Designer|';
+  }
+
+  85.5% {
+    content: 'Designer|';
+  }
+
+  /* Delay */
+  87% {
+    content: 'Designer|';
+  }
+
+  /* Delay */
+  88.5% {
+    content: 'Designe|';
+  }
+
+  90% {
+    content: 'Design|';
+  }
+
+  91.5% {
+    content: 'Desig|';
+  }
+
+  93% {
+    content: 'Desi|';
+  }
+
+  94.5% {
+    content: 'Des|';
+  }
+
+  96% {
+    content: 'De|';
+  }
+
+  97.5% {
+    content: 'D|';
+  }
+
+  99% {
+    content: '|';
+  }
+
+  100% {
+    content: '|';
+  }
+}
